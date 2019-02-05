@@ -1,0 +1,73 @@
+<!--
+  Generated template for the ContactPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar color="favoriteC">
+    <button ion-button menuToggle>
+      <ion-icon name="menu" class="menu"></ion-icon>
+    </button>
+    <ion-title>Contactez-nous</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content #content>
+
+  <div>
+    <h5 class="contact">
+      <ion-icon name="pin"></ion-icon>" &nbsp; Adress"</h5>
+    <p>76 rue jean longuet,<br>92290 chatenay-malabry</p>
+  </div>
+  <div>
+    <h5 class="contact">
+      <ion-icon name="call"></ion-icon>"&nbsp; Phone"</h5>
+    <p>+336 22 82 56 43</p>
+  </div>
+  <div>
+    <h5 class="contact">
+      <ion-icon name="mail"></ion-icon>"&nbsp; Email"</h5>
+    <p>onyabeu@gmail.com</p>
+  </div>
+
+  <h4 class="contact">
+    <ion-icon name="paper-plane"></ion-icon>"&nbsp; Send Me a Message"</h4>
+  <ion-list no-lines>
+    <div class="container-fluide" style="background-color: #ea6153;">
+      <p *ngIf="submitAttempt" style="color: white;">
+        S'il vous plaît remplir tous les détails avec précision.</p>
+    </div>
+    <form ion-col col-12>
+
+      <ion-item>
+        <ion-input type="text" placeholder="Name"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-input type="text" placeholder="Email"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-input type="text" placeholder="Subjet"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-textarea placeholder="Texte" rows="7"></ion-textarea>
+      </ion-item>
+      <ion-item>
+        <ion-label>En nous envoyant ce message vous acceptez de faire partie de notre base de donnée utilisée pour les newsletter.</ion-label>
+        <ion-checkbox (ionChange)="updateChecked()" class="checked"></ion-checkbox>
+      </ion-item>
+    </form>
+  </ion-list>
+  <button ion-buttton class="envoyer" round col-4 offset-4>Envoyer</button>
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar [style.height]="auto">
+  </ion-toolbar>
+</ion-footer>

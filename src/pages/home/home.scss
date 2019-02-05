@@ -1,0 +1,53 @@
+page-home {
+    *{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    }
+    /************************HEADER****************************/
+    ion-header{
+        background: #DEDBDE;
+        //height: 40vh;
+    }
+    ion-header::after{bottom: 0 !important;height: 0 !important;}
+    .logo{
+        width: 30%;
+        height: 30%;
+        margin-top: 5px;
+        margin-left: 65px;
+    }
+    .logo img{
+        width: 100%;
+      
+    }
+    h3{
+      text-align: center;
+      font-size: 1.2em;
+      background: #fff;
+    }
+   /************************ICON****************/
+
+   .menu{
+    font-size: 3em; 
+    color: #fff;
+    font-weight: bold;
+   }
+
+   /***************************BODY*****************/
+  #picture{
+      height: 35%;
+      margin-bottom: 2%;
+    }
+    ion-row{margin-top:5%;}
+    }
+    .gridHome{
+        margin-top:15%;
+    }
+    .text{
+    text-align: center; 
+    font-weight: bold;
+    font-size: 0.8em;
+
+
+}
+

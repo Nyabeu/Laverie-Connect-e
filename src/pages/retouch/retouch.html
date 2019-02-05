@@ -1,0 +1,50 @@
+<!--
+  Generated template for the RetouchPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+    <ion-navbar color="favoriteC">
+        <ion-title>Retouche</ion-title>
+      </ion-navbar>
+
+</ion-header>
+
+
+<ion-content #content>
+    <ion-list>
+        <ion-item *ngFor="let retouch of retouches">
+          <ion-row>
+            <ion-col col-7>
+              <p style="font-weight: bold;">{{retouch.name}}</p>
+              <p>{{retouch.text}}&nbsp;</p>
+            </ion-col>
+            <ion-col col-2>
+              <p>{{retouch.price}}&nbsp;€</p>
+            </ion-col>
+            <ion-col col-3 class="buttonCol">
+              <ion-row>
+                <button class="addShopping" color='favoriteC' ion-button icon-start clear small style="cursor:pointer;" (click)="addItem(retouch)">
+                  <ion-icon name="add-circle"></ion-icon>
+                  <span>&nbsp;{{retouch.qte}}</span>
+                  <!-- *ngFor="let i of index"{{ i }} -->
+                </button>
+              </ion-row>
+              <ion-row>
+                <button *ngIf="retouch.qte > 0" color='favoriteC' class="removeShopping" ion-button icon-start clear small style="cursor:pointer;" (click)="removeItem(retouch)">
+                  <ion-icon name="remove-circle"></ion-icon>
+                </button>
+              </ion-row>
+            </ion-col>
+          </ion-row>
+        </ion-item>
+      </ion-list>
+</ion-content>
+
+<ion-footer>
+    <ion-toolbar  [style.height]="auto">
+    </ion-toolbar>
+  </ion-footer>
+

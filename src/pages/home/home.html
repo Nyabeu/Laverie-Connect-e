@@ -1,0 +1,49 @@
+<ion-header>
+    <ion-navbar color="silver" class="nav">
+        <button ion-button menuToggle>
+            <ion-icon name="menu" class="menu"></ion-icon>
+        </button>
+        <div class="logo">
+            <img src="./assets/imgs/My Co'Laverie_logo.png" alt="logo">
+        </div>
+    </ion-navbar>
+
+    <h3>My Co'Laverie</h3>
+</ion-header>
+
+<ion-content>
+    <div id="picture">
+        <img src="./assets/imgs/linge.jpg" alt="title">
+    </div>
+    <ion-grid class="gridHome">
+        <ion-row>
+            <ion-col col-3 offset-2>
+                <div  (click)="openLoginPage()">
+                    <img src="./assets/imgs/user.png" alt="user">
+                    <p class="text">Connexion</p>
+                </div>
+
+            </ion-col>
+            <ion-col col-3 offset-2>
+                <div (click)="openDisponibilitePage()">
+                    <img src="./assets/imgs/machine.png" alt="machine">
+                    <p class="text">Disponibilité</p>
+                </div>
+            </ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col col-3 offset-2>
+                <div (click)="openConciergePage()">
+                    <img src="./assets/imgs/concierge.png" alt="concierge">
+                    <p class="text">Conciergerie</p>
+                </div>
+            </ion-col>
+            <ion-col col-3 offset-2>
+                <div (click)="openPricePage()">
+                    <img src="./assets/imgs/TARIFS.png" alt="envelope">
+                    <p class="text">Tarifs</p>
+                </div>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+</ion-content>

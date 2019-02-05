@@ -1,0 +1,82 @@
+<!--
+  Generated template for the AccountPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+    <ion-navbar color="favoriteC">
+        <button ion-button menuToggle>
+          <ion-icon name="menu" class="menu"></ion-icon>
+        </button>
+        <ion-title>Mon Compte</ion-title>
+      </ion-navbar>
+
+</ion-header>
+
+
+<ion-content #content>
+    <ion-card>
+        <ion-card-content>
+          <h3 style="text-align: center;">Retrouvez et mettez à jour toutes vos informations personnelles.</h3>
+          <button ion-button full color="favoriteC" (click)="handleClick1()">Mon Profil</button>
+          <ion-card-content>
+            <h5 class="titleCol">Données Personnelles</h5>
+            <br>
+            <address>Nom Prenom
+              <br>Date naissance
+              <br>Membre depuis....
+              <ion-row>
+                <ion-col col-3 style="margin-top: 5%;">
+                  Email
+                </ion-col>
+                <ion-col col-3 offset-6>
+                  <button ion-button color="white" (click)="ModifyFormName">
+                    <ion-icon name="brush"></ion-icon>
+                  </button>
+                </ion-col>
+              </ion-row>
+            </address>
+            <ion-row>
+              <button ion-button color="white" (click)="ModifyFormName">
+                Changer mon mot de passe
+              </button>
+            </ion-row>
+          </ion-card-content>
+          <button ion-button full color="favoriteC" (click)="handleClick2()">Mon Carnet d'adresse</button>
+          <ion-card-content>
+            <button color="silver" ion-button full>
+              <ion-icon name="add"></ion-icon>&nbsp;
+              <p>Ajouter une nouvelle adresse</p>
+            </button>
+            <address>Nom Prenom
+              <br>76 rue de paris
+              <br>92290 Antony, France
+              <br>Tél: 4567876</address>
+            <ion-row>
+              <button ion-col col-4 ion-button color="favoriteC" clear small>Modifier</button>
+              <button ion-col col-8 ion-button color="favoriteC" clear small>Supprimer l'adresse</button>
+            </ion-row>
+    
+          </ion-card-content>
+          <button ion-button full color="favoriteC" (click)="handleClick3()">Mon bon d'achat</button>
+          <ion-card-content>
+            <ion-row>
+              <ion-col col-12>vous n'avez pas de bon</ion-col>
+            </ion-row>
+          </ion-card-content>
+          <button ion-button full color="favoriteC" (click)="handleClick4()">MES CARTES SAUVEGARDÉES</button>
+          <ion-card-content>
+            <ion-row>
+              <ion-col col-12>pas de ...................;</ion-col>
+            </ion-row>
+          </ion-card-content>
+        </ion-card-content>
+      </ion-card>
+
+</ion-content>
+
+<ion-footer>
+    <ion-toolbar  [style.height]="auto"></ion-toolbar>
+</ion-footer>

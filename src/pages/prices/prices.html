@@ -1,0 +1,125 @@
+<!--
+  Generated template for the PricesPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar color="favoriteC">
+    <button ion-button menuToggle>
+      <ion-icon name="menu" class="menu"></ion-icon>
+    </button>
+    <ion-title>Nos Tarifs</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content #content>
+
+  <ion-grid>
+    <ion-row>
+      <ion-card>
+        <ion-card-header>
+          <h1>Lavage</h1>
+        </ion-card-header>
+        <ion-card-content>
+          <ion-grid>
+            <ion-row *ngFor="let lavage of lavages">
+              <ion-col col-9>
+                <p>{{lavage.title}}&nbsp;{{lavage.poids}}
+                  <br>{{lavage.text}}</p>
+              </ion-col>
+              <ion-col col-3>
+                <p>{{lavage.price}}</p>
+              </ion-col>
+            </ion-row>
+          </ion-grid>
+        </ion-card-content>
+      </ion-card>
+    </ion-row>
+    <ion-row>
+      <ion-card>
+        <ion-card-header>
+          <h1>Retouches</h1>
+        </ion-card-header>
+        <ion-card-content>
+          <ion-grid>
+            <ion-row *ngFor="let retouch of retouches">
+              <ion-col col-9>
+                <p>{{retouch.title}}</p>
+              </ion-col>
+              <ion-col col-3>
+                <p>{{retouch.price}}</p>
+              </ion-col>
+            </ion-row>
+          </ion-grid>
+        </ion-card-content>
+      </ion-card>
+    </ion-row>
+    <ion-row>
+      <ion-card>
+        <ion-card-header>
+          <h1>Cordonnerie</h1>
+        </ion-card-header>
+        <ion-card-content>
+          <ion-grid>
+            <ion-row *ngFor="let coord of shoemakers">
+              <ion-col col-9>
+                <p>{{coord.title}}
+                  <br>{{coord.text}}</p>
+              </ion-col>
+              <ion-col col-3>
+                <p>{{coord.price}}</p>
+              </ion-col>
+            </ion-row>
+          </ion-grid>
+        </ion-card-content>
+      </ion-card>
+    </ion-row>
+    <ion-row>
+      <ion-card>
+        <ion-card-header>
+          <h1>Repassage</h1>
+        </ion-card-header>
+        <ion-card-content>
+          <ion-grid>
+            <ion-row *ngFor="let repasse of ironings">
+              <ion-col col-9>
+                <p>{{repasse.title}}</p>
+              </ion-col>
+              <ion-col col-3>
+                <p>{{repasse.price}}</p>
+              </ion-col>
+            </ion-row>
+          </ion-grid>
+        </ion-card-content>
+      </ion-card>
+    </ion-row>
+    <ion-row>
+      <ion-card>
+        <ion-card-header>
+          <h1>Pressing</h1>
+        </ion-card-header>
+        <ion-card-content>
+          <ion-grid>
+            <ion-row *ngFor="let pres of pressings">
+              <ion-col col-9>
+                <p>{{pres.title}}</p>
+              </ion-col>
+              <ion-col col-3>
+                <p>{{pres.price}}</p>
+              </ion-col>
+            </ion-row>
+          </ion-grid>
+        </ion-card-content>
+      </ion-card>
+    </ion-row>
+  </ion-grid>
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar [style.height]="auto">
+  </ion-toolbar>
+</ion-footer>

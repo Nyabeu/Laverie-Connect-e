@@ -1,0 +1,113 @@
+<!--
+  Generated template for the DeliveryPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+    <ion-navbar color="favoriteC">
+        <ion-title>Expédition</ion-title>
+      </ion-navbar>
+
+</ion-header>
+
+
+<ion-content #content>
+    <h4>Choisissez ci-dessous vos jours et horaires de collecte et livraison</h4>
+    <ion-card color="silver">
+      <ion-card-content>
+        <ion-row>
+          <ion-col>
+            <ul>
+              <li>Créneau horaire de 2h</li>
+              <li>Delai de traitement 48h</li>
+            </ul>
+          </ion-col>
+          <ion-col>
+            <p style="text-align: center;">Frais de livraison
+              <br>3 €</p>
+          </ion-col>
+        </ion-row>
+      </ion-card-content>
+    </ion-card>
+    <div color='secondary'>
+      <div>
+        <h5>Collecte</h5>
+        <ion-row>
+          <ion-col>
+            <ion-item>
+              <ion-label>Créneau horaire</ion-label>
+              <ion-select [(ngModel)]="horaireCol">
+                <ion-option *ngFor="let option of options" selected="{{option.id == 1? 'true' : 'false'}}">
+                  {{option.value}}
+                </ion-option>
+              </ion-select>
+            </ion-item>
+          </ion-col>
+          <ion-col>
+            <ion-item>
+                <ion-label>Date</ion-label>
+              <ion-datetime displayFormat="DD/MMM/YYYY" [(ngModel)]="myDate">
+              </ion-datetime>
+            </ion-item>
+          </ion-col>
+        </ion-row>
+      </div>
+      <div>
+        <h5>Livraison</h5>
+        <ion-row>
+          <ion-col>
+            <ion-item>
+              <ion-label>Créneau horaire</ion-label>
+              <ion-select [(ngModel)]="horaireLiv">
+                <ion-option *ngFor="let option of options" value="{{option.id}}" selected="{{option.id == 6? 'true' : 'false'}}">{{option.value}}</ion-option>
+              </ion-select>
+            </ion-item>
+          </ion-col>
+          <ion-col>
+            <ion-item>
+                <ion-label>Date</ion-label>
+              <ion-datetime displayFormat="DD/MMM/YYYY" [(ngModel)]="myDate">
+              </ion-datetime>
+            </ion-item>
+          </ion-col>
+        </ion-row>
+      </div>
+    </div>
+  
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <h4>Total :</h4>
+        </ion-col>
+        <ion-col>
+          <h4>{{totalCourse}}&nbsp;€</h4>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col col-7>
+          <p>Voulez-vous créditer votre compte?</p>
+        </ion-col>
+        <ion-col col-2>
+          <button ion-button clear color="favoriteC">non</button>
+        </ion-col>
+        <ion-col col-2>
+          <button ion-button clear color="favoriteC" (click)="openPaymentPage()">oui</button>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col offset-2>
+          <button ion-button icon-start round class="validCommand" color="favoriteC" (click)="show()">
+            <ion-icon name="checkmark-circle"></ion-icon>
+            <p>valider ma commande</p>
+          </button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-content>
+
+  <ion-footer>
+    <ion-toolbar [style.height]="auto">
+    </ion-toolbar>
+  </ion-footer>

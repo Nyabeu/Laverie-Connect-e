@@ -1,0 +1,47 @@
+<!--
+  Generated template for the CreditedMyAccountPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+    <ion-navbar color="favoriteC">
+        <ion-title>Créditer Mon Compte</ion-title>
+      </ion-navbar>
+
+</ion-header>
+
+
+<ion-content #content>
+    <h1>CHOISISSEZ LE MONTANT QUE VOUS SOUHAITEZ AJOUTER : </h1>
+    <ion-grid>
+      <ion-row>
+        <ion-col *ngFor="let money of moneyP">
+          <ion-card color="silver" class="money" (click)="eachMoney(money.price)">
+            <p>{{money.price}}</p>
+          </ion-card>
+        </ion-col>
+  
+      </ion-row>
+      <ion-row>
+        <ion-col *ngFor="let money of moneyG">
+          <ion-card color="silver" class="money" (click)="eachMoney(money.price)">
+            <p>{{money.price}}</p>
+          </ion-card>
+        </ion-col>
+  
+      </ion-row>
+    </ion-grid>
+    <br>
+    <br>
+    <p>Crédit disponible:  {{getClickedMoney}} </p>
+    <ion-buttons class="buttonCenter">
+      <button ion-button color="favoriteC" (click)="openHomepage(page)" round>Valider</button>
+    </ion-buttons>  
+
+</ion-content>
+
+<ion-footer>
+    <ion-toolbar  [style.height]="auto"></ion-toolbar>
+</ion-footer>

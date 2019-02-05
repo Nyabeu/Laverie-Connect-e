@@ -1,0 +1,38 @@
+page-shopping {
+    p{
+        font-size:0.9em;
+    }
+table{	
+    border-collapse : collapse;
+	width: 100%;
+	margin: 10px auto;
+}
+
+td, th{
+	text-align: center;
+}
+
+thead,tfoot {
+	background:#DEDBDE;
+	font-family: 'Lobster';
+}
+tbody td{
+    position: relative;
+}
+ion-card{
+    padding: 7px;
+}
+.addShopping {
+    position: absolute;
+    top: -5px;
+    left: -20px;
+    
+}
+.removeShopping{
+    position: absolute;
+    top: 20px;
+    left: -20px;
+    
+}
+
+}

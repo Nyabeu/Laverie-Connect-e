@@ -1,0 +1,286 @@
+{
+    "lavage": [
+        {
+            "title": "Machine à laver de ",
+            "text": "( le cycle )",
+            "price": "4.20 €",
+            "poids": "8 kg"
+           
+        },
+        {
+            "title": "Machine à laver de",
+            "text": "( le cycle )",
+            "price": "7.80 €",
+            "poids": "18 kg"
+            
+        },
+        {
+            "title": "Séchoir de",
+            "text": "( le cycle de 10 min )",
+            "price": "1.20 €",
+            "poids": "16 kg"
+            
+        },
+        {
+            "title": "Lessive - Adoucissant",
+            "text": "( dose )",
+            "price": "0.50 €",
+            "poids": "8 kg"
+            
+        },
+        {
+            "title": "Défroissage - pliage ",
+            "text": "( 30 min )",
+            "price": "4 €",
+            "poids": "12 Kg"
+           
+        }
+      
+    ],
+    "pressing": [
+        {
+            "title": "Linge au kilo",
+            "price": "8 €"
+        },
+        {
+            "title": "Costume 2 pièces",
+            "price": "12 €"
+
+        },
+        {
+            "title": "Combinaison femme",
+            "price": "15 €"
+        },
+        {
+            "title": "Chemise sur cintre",
+            "price": "2.50 €"
+        },
+        {
+            "title": "Veste",
+            "price": "7 €"
+        },
+        {
+            "title": "Pantalon de costume",
+            "price": "7.5 €"
+        },
+        {
+            "title": "Jupe ou robe simple",
+            "price": "7.5 €"
+        },
+        {
+            "title": "Tailleur",
+            "price": "14 €"
+        },
+        {
+            "title": "Blouse, tunique ou haut",
+            "price": "7 €"
+
+        },
+        {
+            "title": "Chemisier en soie",
+            "price": "7 €"
+        },
+        {
+            "title": "Cravate",
+            "price": "6 €"
+        },
+        {
+            "title": "Chemise pliée",
+            "price": "4 €"
+
+        },
+        {
+            "title": "Polo & T-shirt sur cintres",
+            "price": "3.40 €"
+        },
+        {
+            "title": "Jupe fragile",
+            "price": "9 €"
+        },
+        {
+            "title": "Robe fragile",
+            "price": "13 €"
+        },
+        {
+            "title": "Jupe fragile",
+            "price": "9 €"
+        },
+        {
+            "title": "Jeans",
+            "price": "7 €"
+        },
+        {
+            "title": "Costume 3 pièces",
+            "price": "19 €"
+        },
+        {
+            "title": "Pull",
+            "price": "6 €"
+        },
+        {
+            "title": "Manteau",
+            "price": "9.50 €"
+        },
+        {
+            "title": "Robe d’avocat",
+            "price": "25 €"
+
+        },
+        {
+            "title": "Veston",
+            "price": "5 €"
+        },
+        {
+            "title": "Imperméable, trench, blouson",
+            "price": "8.50 €"
+        },
+        {
+            "title": "Doudoune et parka",
+            "price": "18 €"
+        }
+    ],
+    "ironing": [
+        {
+            "title": "Linge",
+            "price": "6 €"
+        },
+        {
+            "title": "Chemise sur cintre",
+            "price": "3 €"
+        },
+        {
+            "title": "Chemisier",
+            "price": "4 €"
+        },
+        {
+            "title": "Jean, pantalon",
+            "price": "3.50 €"
+        },
+        {
+            "title": "Chemise pliée",
+            "price": "3.50 €"
+        },
+        {
+            "title": "Blouse et haut sur cintre",
+            "price": "2.80 €"
+
+        },
+        {
+            "title": "Pantalon de costume",
+            "price": "7.5 €"
+        },
+        {
+            "title": "Pantalon de costume",
+            "price": "3.50 €"
+        },
+        {
+            "title": "Polo et T-shirts pliés",
+            "price": "2.80 €"
+        },
+        {
+            "title": "Pull",
+            "price": "4 €"
+
+        },
+        {
+            "title": "Veston, gilet",
+            "price": "4 €"
+        },
+        {
+            "title": "Robe simple",
+            "price": "5 €"
+        },
+        {
+            "title": "Jupe longue",
+            "price": "5.50 €"
+        },
+        {
+            "title": "Robe ou jupe simple",
+            "price": "5 €"
+        },
+        {
+            "title": "Pantalon velours, lin",
+            "price": "4 €"
+        },
+        {
+            "title": "Polo, T-shirt, haut",
+            "price": "2.80 €"
+        }
+    ],
+    "retouch": [
+        {
+            "title": "Ourlet Rideau",
+            "price": "30 €"
+        },
+        {
+            "title": "Tailles manches",
+            "price": "18 €"
+
+        },
+        {
+            "title": "Pantalon",
+            "price": "25 €"
+        },
+        {
+            "title": "Robe soirée",
+            "price": "10.50 €"
+        },
+        {
+            "title": "Recoudre une poche",
+            "price": "5 €"
+        },
+        {
+            "title": "Petite retouche",
+            "price": "5 €"
+        }
+    ],
+    "shoemaker": [
+        {
+            "title": "Patins de protection femme",
+            "text": "Paire",
+            "price": "18 €"
+
+        },
+        {
+            "title": "Patins de protections homme",
+            "text": "Paire",
+            "price": "20 €"
+
+        },
+        {
+            "title": "Bouts sous patins",
+            "text": "",
+            "price": "6 €"
+        },
+        {
+            "title": "Cirage",
+            "text": "Paire",
+            "price": "10 €"
+        },
+        {
+            "title": "Talons caoutchouc",
+            "text": "Paire",
+            "price": "16 €"
+        },
+        {
+            "title": "Talons ville homme",
+            "text": "Paire",
+            "price": "16 €"
+        },
+        {
+            "title": "Réparation talon aiguille",
+            "text": "",
+            "price": "10 €"
+        },
+        {
+            "title": "Talon ville femme",
+            "text": "Bottes…",
+            "price": "14 €"
+        },
+        {
+            "title": "Réparation couture",
+            "text": "Une chaussure",
+            "price": "10 €"
+        }
+    ]
+}

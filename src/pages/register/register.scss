@@ -1,0 +1,64 @@
+page-register {
+ /*************************CONTENT***************************************/
+
+
+ 
+     /**Formulaire***/
+ 
+     p{
+         font-size: 0.8em;
+         //color: #d2d2d2;
+         font-style: italic;
+     }
+     .isvalid{
+         border-color:  #ea6153;
+     }
+     ion-list{display: inline; }
+     ion-item{
+         border:none;
+         width: 100%;
+         margin: 0;
+     }
+     ion-label, .select-text {
+         margin-left:5px;
+         margin: 0 !important;
+     }
+     ion-label, .select-text {
+         margin-left:5px;
+     }
+     ion-input, ion-textarea{
+         background: #DEDBDE;
+         border-radius: 10px 10px;
+         padding-left: 10px;
+         margin: 2px 0;
+         height: 7vh;
+        
+     }
+     ion-input:focus {
+        background: #DEDBDE;
+        border-radius: 10px 10px;
+        padding-left: 10px;
+        margin: 2px 0;
+        height: 7vh;
+       
+    }
+     position : initial !important;
+     .buttonCenter{ 
+         text-align: center;
+         margin: 10px 0;
+     }
+     
+     #connect{
+         width: 35%;
+         margin: auto;
+         margin-bottom: 2%;
+ 
+     }
+     #connect img{
+         width: 100%;
+     }
+
+ 
+
+
+}

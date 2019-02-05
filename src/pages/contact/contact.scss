@@ -1,0 +1,51 @@
+page-contact {
+            /*************CONTENT********************/
+            form{
+                padding-left: 10px;
+            }
+            ion-col{
+                font-size:.9em;
+            }
+            h5, h4{
+                color:#A5C700;
+                padding-left: 20px;
+            }
+            p{
+                padding-left: 40px;
+            }
+
+            ion-list{display: inline;}
+            ion-item{
+                border:none;
+                width: 100%;
+                margin: 0;
+            }
+            ion-input, ion-textarea{
+                background: #DEDBDE; 
+                padding-left: 10px;
+                border-radius: 5px 5px;
+                margin: 5px 0;
+                width: 100%;
+            }
+            ion-input:focus, ion-textarea:focus{
+                background: #DEDBDE; 
+                padding-left: 10px;
+                border-radius: 5px 5px;
+                margin: 5px 0;
+                width: 100%;
+            }
+        
+            .envoyer{
+                background: #A5C700;
+                color: #fff;
+                height: 30px;
+                font-size: 1.4em;
+                margin-bottom: 10px;
+            }
+            .checked{
+                margin: 0;
+                padding: 0;
+            }
+
+
+}

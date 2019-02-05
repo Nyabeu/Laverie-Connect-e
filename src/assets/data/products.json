@@ -1,0 +1,340 @@
+{
+    "pressing": [
+        {
+            "name": "Linge au kilo",
+            "text": "",
+            "price": 8,
+            "qte": 0
+        },
+        {
+            "name": "Costume 2 pièces",
+            "text": "nettoyage à sec",
+            "price": 12,
+            "qte": 0
+        },
+        {
+            "name": "Combinaison femme",
+            "text": "",
+            "price": 15,
+            "qte": 0
+        },
+        {
+            "name": "Chemise sur cintre",
+            "text": "",
+            "price": 2.50,
+            "qte": 0
+        },
+        {
+            "name": "Veste",
+            "text": "",
+            "price": 7,
+            "qte": 0
+        },
+        {
+            "name": "Pantalon de costume",
+            "text": "",
+            "price": 7.5,
+            "qte": 0
+        },
+        {
+            "name": "Jupe ou robe simple",
+            "text": "",
+            "price": 7.5,
+            "qte": 0
+        },
+        {
+            "name": "Tailleur",
+            "text": "",
+            "price": 14,
+            "qte": 0
+        },
+        {
+            "name": "Blouse, tunique ou haut",
+            "text": "",
+            "price": 7,
+            "qte": 0
+        },
+        {
+            "name": "Chemisier en soie",
+            "text": "",
+            "price": 7,
+            "qte": 0
+        },
+        {
+            "name": "Cravate",
+            "text": "",
+            "price": 6,
+            "qte": 0
+        },
+        {
+            "name": "Chemise pliée",
+            "text": "",
+            "price": 4,
+            "qte": 0
+        },
+        {
+            "name": "Polo & T-shirt sur cintres",
+            "text": "",
+            "price": 3.40,
+            "qte": 0
+        },
+        {
+            "name": "Jupe fragile",
+            "text": "",
+            "price": 9,
+            "qte": 0
+        },
+        {
+            "name": "Robe fragile",
+            "text": "",
+            "price": 13,
+            "qte": 0
+        },
+        {
+            "name": "Jupe fragile",
+            "text": "",
+            "price": 9,
+            "qte": 0
+        },
+        {
+            "name": "Jeans",
+            "text": "",
+            "price": 7,
+            "qte": 0
+        },
+        {
+            "name": "Costume 3 pièces",
+            "text": "",
+            "price": 19,
+            "qte": 0
+        },
+        {
+            "name": "Pull",
+            "text": "",
+            "price": 6,
+            "qte": 0
+        },
+        {
+            "name": "Manteau",
+            "text": "",
+            "price": 9.50,
+            "qte": 0
+        },
+        {
+            "name": "Robe d’avocat",
+            "text": "",
+            "price": 25,
+            "qte": 0
+        },
+        {
+            "name": "Veston",
+            "text": "Gilet de costume 3 pièce",
+            "price": 5,
+            "qte": 0
+        },
+        {
+            "name": "Imperméable, trench, blouson",
+            "text": "",
+            "price": 8.50,
+            "qte": 0
+        },
+        {
+            "name": "Doudoune et parka",
+            "text": "",
+            "price": 18,
+            "qte": 0
+        }
+    ],
+    "ironing": [
+        {
+            "name": "Linge",
+            "text": "",
+            "price": 6,
+            "qte": 0
+        },
+        {
+            "name": "Chemise sur cintre",
+            "text": "",
+            "price": 3,
+            "qte": 0
+        },
+        {
+            "name": "Chemisier",
+            "text": "",
+            "price": 4,
+            "qte": 0
+        },
+        {
+            "name": "Jean, pantalon",
+            "text": "",
+            "price": 3.50,
+            "qte": 0
+        },
+        {
+            "name": "Chemise pliée",
+            "text": "",
+            "price": 3.50,
+            "qte": 0
+        },
+        {
+            "name": "Blouse et haut sur cintre",
+            "text": "",
+            "price": 2.80,
+            "qte": 0
+        },
+        {
+            "name": "Pantalon de costume",
+            "text": "",
+            "price": 7.5,
+            "qte": 0
+        },
+        {
+            "name": "Pantalon de costume",
+            "text": "",
+            "price": 3.50,
+            "qte": 0
+        },
+        {
+            "name": "Polo et T-shirts pliés",
+            "text": "",
+            "price": 2.80,
+            "qte": 0
+        },
+        {
+            "name": "Pull",
+            "text": "",
+            "price": 4,
+            "qte": 0
+        },
+        {
+            "name": "Veston, gilet",
+            "text": "",
+            "price": 4,
+            "qte": 0
+        },
+        {
+            "name": "Robe simple",
+            "text": "",
+            "price": 5,
+            "qte": 0
+        },
+        {
+            "name": "Jupe longue",
+            "text": "",
+            "price": 5.50,
+            "qte": 0
+        },
+        {
+            "name": "Robe ou jupe simple",
+            "text": "",
+            "price": 5,
+            "qte": 0
+        },
+        {
+            "name": "Pantalon velours, lin",
+            "text": "",
+            "price": 4,
+            "qte": 0
+        },
+        {
+            "name": "Polo, T-shirt, haut",
+            "text": "",
+            "price": 2.80,
+            "qte": 0
+        }
+    ],
+    "retouch": [
+        {
+            "name": "Ourlet Rideau",
+            "text": "",
+            "price": 30,
+            "qte": 0
+        },
+        {
+            "name": "Tailles manches",
+            "text": "",
+            "price": 18,
+            "qte": 0
+        },
+        {
+            "name": "Pantalon",
+            "text": "",
+            "price": 25,
+            "qte": 0
+        },
+        {
+            "name": "Robe soirée",
+            "text": "",
+            "price": 10.50,
+            "qte": 0
+        },
+        {
+            "name": "Recoudre une poche",
+            "text": "",
+            "price": 5,
+            "qte": 0
+        },
+        {
+            "name": "Petite retouche",
+            "text": "",
+            "price": 5,
+            "qte": 0
+        }
+    ],
+    "shoemaker": [
+        {
+            "name": "Patins de protection femme",
+            "text": "Paire",
+            "price": 18,
+            "qte": 0
+        },
+        {
+            "name": "Patins de protections homme",
+            "text": "Paire",
+            "price": 20,
+            "qte": 0
+        },
+        {
+            "name": "Bouts sous patins",
+            "text": "Paire",
+            "price": 6,
+            "qte": 0
+        },
+        {
+            "name": "Cirage",
+            "text": "Paire",
+            "price": 10,
+            "qte": 0
+        },
+        {
+            "name": "Talons caoutchouc",
+            "text": "Paire",
+            "price": 16,
+            "qte": 0
+        },
+        {
+            "name": "Talons ville homme",
+            "text": "Paire",
+            "price": 16,
+            "qte": 0
+        },
+        {
+            "name": "Réparation talon aiguille",
+            "text": "Paire",
+            "price": 10,
+            "qte": 0
+        },
+        {
+            "name": "Talon ville femme",
+            "text": "Bottes…",
+            "price": 14,
+            "qte": 0
+        },
+        {
+            "name": "Réparation couture",
+            "text": "Une chaussure",
+            "price": 10,
+            "qte": 0
+        }
+    ]
+}

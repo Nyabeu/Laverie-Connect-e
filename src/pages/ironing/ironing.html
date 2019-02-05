@@ -1,0 +1,49 @@
+<!--
+  Generated template for the IroningPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar color="favoriteC">
+    <ion-title>Repassage</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content #content>
+    <ion-list>
+        <ion-item *ngFor="let repasse of repassages">
+          <ion-row>
+            <ion-col col-7>
+              <p style="font-weight: bold;">{{repasse.name}}</p>
+              <p>{{repasse.text}}&nbsp;</p>
+            </ion-col>
+            <ion-col col-2>
+              <p>{{repasse.price}}&nbsp;€</p>
+            </ion-col>
+            <ion-col col-3 class="buttonRow">
+              <ion-row>
+                <button class="addShopping" color='favoriteC' ion-button icon-start clear small style="cursor:pointer;" (click)="addItem(repasse)">
+                  <ion-icon name="add-circle"></ion-icon>
+                  <span>&nbsp;{{repasse.qte}}</span>
+                  <!-- *ngFor="let i of index"{{ i }} -->
+                </button>
+              </ion-row>
+              <ion-row>
+                <button *ngIf="repasse.qte > 0" color='favoriteC' class="removeShopping" ion-button icon-start clear small style="cursor:pointer;" (click)="removeItem(repasse)">
+                  <ion-icon name="remove-circle"></ion-icon>
+                </button>
+              </ion-row>
+            </ion-col>
+          </ion-row>
+        </ion-item>
+      </ion-list>
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar [style.height]="auto">
+  </ion-toolbar>
+</ion-footer>

@@ -1,0 +1,44 @@
+<div *ngIf="showSplash" class="splash">
+  <div class="spinner">
+    <img src="./assets/imgs/My Co'Laverie_logo.png">
+  </div>
+
+</div>
+
+<ion-split-pane>
+  <ion-menu [content]="content">
+    <ion-header>
+      <ion-toolbar color="favoriteC">
+        <ion-title>Menu</ion-title>
+      </ion-toolbar>
+    </ion-header>
+
+    <ion-content>
+      <ion-list>
+        <button menuClose ion-item color="favoriteC" *ngFor="let p of pages" (click)="openPage(p)">
+          <ion-icon name="{{p.icon}}" item-start> </ion-icon>
+          {{p.title}}
+        </button>
+        <button color="silver" menuToggle ion-item *ngFor="let per of personnels" (click)="openPersoPage(per)">
+          <ion-icon name="{{per.icon}}" item-start> </ion-icon>
+          {{per.title}}
+        </button>
+      </ion-list>
+    </ion-content>
+
+  </ion-menu>
+  <ion-footer *ngIf="!footerIsHidden" class="footer">
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+        <button color="silver" *ngFor="let foo of footer" class="button-icon-top button-color-active-energized button-striped button-background-balanced" (click)="openFooterPage(foo)" class="button">
+          <ion-icon name="{{foo.icon}}" class="myIcon"> </ion-icon>
+        </button>
+      </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-footer>
+
+  <!-- Disable swipe-to-go-back because it's poor UX to combine STGB with side menus -->
+  <ion-nav [root]="rootPage" main #content swipeBackEnabled="false"></ion-nav>
+</ion-split-pane>

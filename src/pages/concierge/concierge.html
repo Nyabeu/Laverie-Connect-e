@@ -1,0 +1,32 @@
+<!--
+  Generated template for the ConciergePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar color="favoriteC">
+    <ion-title>Conciergerie</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content #content>
+  <ion-list>
+    <button ion-item *ngFor="let item of items" (click)="itemTapped(item)">
+      <ion-avatar item-start>
+        <img src="{{item.image}}">
+      </ion-avatar>
+      <h2>{{item.title}}</h2>
+      <p>{{item.text}}</p>
+    </button>
+  </ion-list>
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar  [style.height]="auto">
+  </ion-toolbar>
+</ion-footer>
+

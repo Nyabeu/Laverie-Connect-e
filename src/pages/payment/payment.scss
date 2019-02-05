@@ -1,0 +1,29 @@
+page-payment {
+    .content{
+        padding-top: 15px;
+        }
+        .buttonCenter{ 
+            text-align: center;
+            margin: 10px 0;
+        }
+        p{
+            text-align: center;
+            padding: 5px;
+        }
+        .footer-md::before{
+            top: 0; 
+            bottom: 0;
+           background-position: left 0 top 0;
+           position: absolute;
+       }
+       ion-footer {
+           left: 0;
+           bottom: 0;
+           position: absolute;
+           z-index: 10;
+           display: block;
+           width: 100%;
+       }
+
+
+}

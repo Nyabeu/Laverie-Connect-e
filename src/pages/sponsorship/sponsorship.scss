@@ -1,0 +1,42 @@
+page-sponsorship {
+    .Icon{
+        font-size: 3em;
+    }
+    h4, h6{
+        text-align: center;
+    }
+    .cardContent{
+        text-align: center;
+    }
+    ion-label{
+        padding-left: 20px;
+    }
+    .footer-md::before{
+        top: 0; 
+        bottom: 0;
+       background-position: left 0 top 0;
+       position: absolute;
+   }
+   ion-footer {
+       left: 0;
+       bottom: 0;
+       position: absolute;
+       z-index: 10;
+       display: block;
+       width: 100%;
+   }
+   ion-input:focus, ion-textarea:focus{
+    border-radius: 10px 10px;
+    padding-left: 10px;
+    margin: 5px 0;
+    height: 7vh;
+}
+ion-list{
+    display:inline;
+
+}
+ion-item{
+    border:none;
+}
+
+}

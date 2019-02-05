@@ -1,0 +1,129 @@
+page-login {
+    *, *:before, *:after {
+        box-sizing: inherit;
+      }
+      html, body, div, span, applet, object, iframe,
+      h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+      a, abbr, acronym, address, big, cite, code,
+      del, dfn, em, img, ins, kbd, q, s, samp,
+      small, strike, strong, sub, sup, tt, var,
+      b, u, i, center,
+      dl, dt, dd, ol, ul, li,
+      fieldset, form, label, legend,
+      table, caption, tbody, tfoot, thead, tr, th, td,
+      article, aside, canvas, details, embed, 
+      figure, figcaption, footer, header, hgroup, 
+      menu, nav, output, ruby, section, summary,
+      time, mark, audio, video {
+          margin: 0;
+          padding: 0;
+          border: 0;
+          font-size: 100%;
+          font: inherit;
+          vertical-align: baseline;
+      }
+      /* Reset l’ajout de taille quand padding et bordures*/
+      html {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+      }
+      *, *:before, *:after {
+        -webkit-box-sizing: inherit;
+        -moz-box-sizing: inherit;
+        box-sizing: inherit;
+        }
+        *, *:before, *:after {
+  box-sizing: inherit;
+}
+
+   /**********************HEADER**********************************/
+#connect{
+    width: 35%;
+    margin: auto;
+    margin-bottom: 2%;
+    //margin: -30px auto;
+    //float: inline;
+
+}
+#connect img{
+    width: 100%;
+}
+/*************************CONTENT***************************************/
+.facebook {
+    margin-left: 27%;
+    margin-top: 3%;
+    width: 70%;
+}
+.facebook img{
+    width: 100%;
+}
+.myIcon{
+    font-size: 2.5em;
+    //background-color: rgb(6, 45, 155);
+    //color: #fff;
+}
+ion-list{
+    display:inline;
+    //width: 60%;
+}
+ion-item{
+    border:none;
+}
+ion-input, ion-textarea{
+    background: #DEDBDE;
+    border-radius: 10px 10px;
+    padding-left: 10px;
+   // width: 70%;
+    margin: 5px 0;
+    height: 7vh;
+}
+ion-input:focus, ion-textarea:focus{
+    background: #DEDBDE;
+    border-radius: 10px 10px;
+    padding-left: 10px;
+   // width: 70%;
+    margin: 5px 0;
+    height: 7vh;
+}
+.buttonCenter{
+    text-align: center;
+    margin: 10px 0;
+}
+.password{
+    opacity: 0.8;
+    text-decoration: none;
+    margin-left: 45%;
+}
+    //    p{
+    //     font-size: 0.8em;
+    //     color: #d2d2d2;
+    // }
+    .isvalid{
+        border: 1px solid #ea6153;
+    }
+.input-wrapper{
+     width:70%;
+     margin: auto;
+}
+.custom-spinner-container{
+    height: 20 vh;
+    font-size: 1.2em;
+}
+
+.footer-md::before{
+     top: 0; 
+     bottom: 0;
+    background-position: left 0 top 0;
+    position: absolute;
+}
+ion-footer {
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    z-index: 10;
+    display: block;
+    width: 100%;
+}
+
+}
